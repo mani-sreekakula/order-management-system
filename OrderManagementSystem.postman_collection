@@ -1,0 +1,423 @@
+{
+	"variables": [],
+	"info": {
+		"name": "OrderManagementSystem",
+		"_postman_id": "4371f81e-c62d-fb3a-7a8a-250ce83a74c6",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Product Catalog Service",
+			"description": "",
+			"item": [
+				{
+					"name": "AddProduct",
+					"request": {
+						"url": "http://localhost:2025/products/v1/add",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic am9objEyMzpwYXNzd29yZA==",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"productName\": \"SampleT1\", \n\t\"productType\": \"PT8\", \n\t\"price\": 108\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "GetProduct",
+					"request": {
+						"url": {
+							"raw": "http://localhost:2025/products/v1/get?id=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2025",
+							"path": [
+								"products",
+								"v1",
+								"get"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "10",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic am9objEyMzpwYXNzd29yZA==",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "GetProductType",
+					"request": {
+						"url": "http://localhost:2025/products/v1/type/PT1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "ListProducts",
+					"request": {
+						"url": "http://localhost:2025/products/v1/list",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tax Compute Service",
+			"description": "",
+			"item": [
+				{
+					"name": "DefineTax",
+					"request": {
+						"url": "http://localhost:2031/tax/v1/define",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic am9objEyMzpwYXNzd29yZA==",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"productType\": \"PT3\", \n\t\"location\": \"IND\", \n\t\"taxName\": \"tax1\",\n\t\"taxPercent\": 7.2\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "ListTaxes",
+					"request": {
+						"url": "http://localhost:2031/tax/v1/list",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "ComputeTax",
+					"request": {
+						"url": {
+							"raw": "http://localhost:2031/tax/v1/compute?productId=1&location=IND",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2031",
+							"path": [
+								"tax",
+								"v1",
+								"compute"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "location",
+									"value": "IND",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pricing Service",
+			"description": "",
+			"item": [
+				{
+					"name": "GetPriceQuote",
+					"request": {
+						"url": {
+							"raw": "http://localhost:2028/pricing/v1/pricequote?productId=1&location=IND",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2028",
+							"path": [
+								"pricing",
+								"v1",
+								"pricequote"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "location",
+									"value": "IND",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Order Service",
+			"description": "",
+			"item": [
+				{
+					"name": "AddOrder",
+					"request": {
+						"url": "http://localhost:2032/order/v1/add",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic am9objEyMzpwYXNzd29yZA==",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"products\": [\n\t\t{\n\t\t\t\"productId\":1, \n\t\t\t\"quantity\": 2\n\t\t},\n\t\t{\n\t\t\t\"productId\":2, \n\t\t\t\"quantity\":4\n\t\t}]\n}\n"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "GetOrder",
+					"request": {
+						"url": {
+							"raw": "http://localhost:2032/order/v1/getDetails?orderId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2032",
+							"path": [
+								"order",
+								"v1",
+								"getDetails"
+							],
+							"query": [
+								{
+									"key": "orderId",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Billing Service",
+			"description": "",
+			"item": [
+				{
+					"name": "GenerateBill",
+					"request": {
+						"url": "http://localhost:2033/billing/v1/generateBill",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic am9objEyMzpwYXNzd29yZA==",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"orderId\": 1, \n\t\"billingAddress\": \"12345 Sunny Road\", \n\t\"location\": \"IND\",\n\t\"customerName\": \"Customer ABC\",\n\t\"emailId\": \"mani.rgm448@gmail.com\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "GetExistingBill",
+					"request": {
+						"url": {
+							"raw": "http://localhost:2033/billing/v1/getBill?orderId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2033",
+							"path": [
+								"billing",
+								"v1",
+								"getBill"
+							],
+							"query": [
+								{
+									"key": "orderId",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Mailing Service",
+			"description": "",
+			"item": [
+				{
+					"name": "SendEmail",
+					"request": {
+						"url": "http://localhost:2034/mailing/v1/sendMail",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic am9objEyMzpwYXNzd29yZA==",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"to\": \"mani.rgm448@gmail.com\", \n\t\"subject\": \"Sample Mail from REST API\", \n\t\"emailBody\": \"Thanks for your time !! \"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Eureka",
+			"description": "",
+			"item": [
+				{
+					"name": "Status",
+					"request": {
+						"url": "http://localhost:1111/",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ActiveMQ",
+			"description": "",
+			"item": [
+				{
+					"name": "ActiveMQ Console",
+					"request": {
+						"url": "http://localhost:8161/admin/",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic YWRtaW46YWRtaW4=",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

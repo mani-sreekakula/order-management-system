@@ -1,0 +1,98 @@
+2018-06-27 19:01:47,118 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@215d4841: startup date [Wed Jun 27 19:01:47 IST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2018-06-27 19:01:47,855 | INFO  | PListStore:[/Users/msreekak/Downloads/apache-activemq-5.11.1/bin/macosx/../../data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2018-06-27 19:01:47,874 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/msreekak/Downloads/apache-activemq-5.11.1/bin/macosx/../../data/kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-27 19:01:48,063 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-54560-1530106307932-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-27 19:01:48,079 | INFO  | Listening for connections at: tcp://blr-mpkx0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-27 19:01:48,080 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-27 19:01:48,083 | INFO  | Listening for connections at: amqp://blr-mpkx0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-27 19:01:48,084 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-27 19:01:48,087 | INFO  | Listening for connections at: stomp://blr-mpkx0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-27 19:01:48,089 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-27 19:01:48,092 | INFO  | Listening for connections at: mqtt://blr-mpkx0:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-27 19:01:48,093 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-27 19:01:48,234 | INFO  | Listening for connections at ws://blr-mpkx0:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2018-06-27 19:01:48,234 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-27 19:01:48,236 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-54560-1530106307932-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-27 19:01:48,237 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-27 19:01:48,238 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/msreekak/Downloads/apache-activemq-5.11.1/bin/macosx/../../data/kahadb only has 55850 mb of usable space - resetting to maximum available disk space: 55850 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-27 19:01:48,499 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2018-06-27 19:01:48,539 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2018-06-27 19:01:48,718 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2018-06-27 19:05:23,447 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1067019868-55
+2018-06-27 21:29:51,762 | WARN  | Transport Connection to: tcp://127.0.0.1:57697 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:57697@61616
+2018-06-28 17:08:52,251 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@20cd5d6f: startup date [Thu Jun 28 17:08:52 IST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2018-06-28 17:08:53,103 | INFO  | PListStore:[/Users/msreekak/tools/apache-activemq-5.11.1/bin/macosx/../../data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2018-06-28 17:08:53,124 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/msreekak/tools/apache-activemq-5.11.1/bin/macosx/../../data/kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-28 17:08:53,371 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-06-28 17:08:53,390 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-06-28 17:08:53,434 | INFO  | Recovery replayed 1001 operations from the journal in 0.056 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-06-28 17:08:53,591 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-51508-1530185933454-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-28 17:08:53,649 | INFO  | Listening for connections at: tcp://blr-mpkx0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-28 17:08:53,651 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-28 17:08:53,654 | INFO  | Listening for connections at: amqp://blr-mpkx0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-28 17:08:53,656 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-28 17:08:53,660 | INFO  | Listening for connections at: stomp://blr-mpkx0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-28 17:08:53,662 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-28 17:08:53,679 | INFO  | Listening for connections at: mqtt://blr-mpkx0:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-28 17:08:53,680 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-28 17:08:53,838 | INFO  | Listening for connections at ws://blr-mpkx0:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2018-06-28 17:08:53,839 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-28 17:08:53,841 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-51508-1530185933454-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-28 17:08:53,842 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-28 17:08:53,843 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/msreekak/tools/apache-activemq-5.11.1/bin/macosx/../../data/kahadb only has 58812 mb of usable space - resetting to maximum available disk space: 58812 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-28 17:08:54,118 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2018-06-28 17:08:54,175 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2018-06-28 17:08:54,391 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2018-06-28 17:13:02,257 | WARN  | Transport Connection to: tcp://127.0.0.1:51553 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51553@61616
+2018-06-28 19:35:10,075 | WARN  | Transport Connection to: tcp://127.0.0.1:55613 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:55613@61616
+2018-06-28 23:54:28,879 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-51508-1530185933454-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-26
+2018-06-28 23:54:29,889 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2018-06-28 23:54:29,892 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2018-06-28 23:54:29,894 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2018-06-28 23:54:29,895 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2018-06-28 23:54:29,987 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2018-06-28 23:54:29,999 | INFO  | PListStore:[/Users/msreekak/tools/apache-activemq-5.11.1/bin/macosx/../../data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-26
+2018-06-28 23:54:30,000 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-26
+2018-06-28 23:54:30,002 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-26
+2018-06-28 23:54:30,003 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-26
+2018-06-28 23:54:30,955 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-51508-1530185933454-0:1) uptime 6 hours 45 minutes | org.apache.activemq.broker.BrokerService | Thread-26
+2018-06-28 23:54:30,958 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-51508-1530185933454-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-26
+2018-06-28 23:54:30,960 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@20cd5d6f: startup date [Thu Jun 28 17:08:52 IST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-26
+2018-06-28 23:54:31,000 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-26
+2018-06-29 16:26:33,707 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@20cd5d6f: startup date [Fri Jun 29 16:26:33 IST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2018-06-29 16:26:34,546 | INFO  | PListStore:[/Users/msreekak/Documents/order_management_system/tools/apache-activemq-5.11.1/bin/macosx/../../data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2018-06-29 16:26:34,565 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/msreekak/Documents/order_management_system/tools/apache-activemq-5.11.1/bin/macosx/../../data/kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-29 16:26:34,848 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-06-29 16:26:34,873 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-06-29 16:26:34,981 | INFO  | Recovery replayed 3076 operations from the journal in 0.126 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-06-29 16:26:35,149 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-51010-1530269795003-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-29 16:26:35,207 | INFO  | Listening for connections at: tcp://blr-mpkx0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-29 16:26:35,208 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-29 16:26:35,212 | INFO  | Listening for connections at: amqp://blr-mpkx0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-29 16:26:35,213 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-29 16:26:35,218 | INFO  | Listening for connections at: stomp://blr-mpkx0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-29 16:26:35,219 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-29 16:26:35,223 | INFO  | Listening for connections at: mqtt://blr-mpkx0:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-06-29 16:26:35,224 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-29 16:26:35,382 | INFO  | Listening for connections at ws://blr-mpkx0:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2018-06-29 16:26:35,383 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-06-29 16:26:35,385 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-51010-1530269795003-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-29 16:26:35,386 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-29 16:26:35,387 | WARN  | Store limit is 102400 mb (current store usage is 1 mb). The data directory: /Users/msreekak/Documents/order_management_system/tools/apache-activemq-5.11.1/bin/macosx/../../data/kahadb only has 58464 mb of usable space - resetting to maximum available disk space: 58466 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-06-29 16:26:35,650 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2018-06-29 16:26:35,695 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2018-06-29 16:26:35,918 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2018-06-29 22:45:07,996 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-51010-1530269795003-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-26
+2018-06-29 22:45:08,001 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2018-06-29 22:45:08,003 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2018-06-29 22:45:08,004 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2018-06-29 22:45:08,005 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2018-06-29 22:45:08,099 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2018-06-29 22:45:08,108 | INFO  | PListStore:[/Users/msreekak/Documents/order_management_system/tools/apache-activemq-5.11.1/bin/macosx/../../data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-26
+2018-06-29 22:45:08,109 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-26
+2018-06-29 22:45:08,110 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-26
+2018-06-29 22:45:08,111 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-26
+2018-06-29 22:45:08,631 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-51010-1530269795003-0:1) uptime 6 hours 18 minutes | org.apache.activemq.broker.BrokerService | Thread-26
+2018-06-29 22:45:08,632 | INFO  | Apache ActiveMQ 5.11.1 (localhost, ID:blr-mpkx0-51010-1530269795003-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-26
+2018-06-29 22:45:08,634 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@20cd5d6f: startup date [Fri Jun 29 16:26:33 IST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-26
+2018-06-29 22:45:08,679 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-26
