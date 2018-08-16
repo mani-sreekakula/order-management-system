@@ -2,6 +2,11 @@
 
 Demo application for order-management-system using spring microservices architecture
 
+## Prerequisites:
+1. Make sure Java 1.7 is available to run executable jar files
+2. Run Active MQ Server locally from tools/apache-activemq-5.11.1/bin/macos/activemq start
+3. Make sure there are no port blockings to interact multiple microservices in the system (Connect to internet)
+
 ## Procedure
 
 To run the order management microservices system, open six CMD windows (Windows) or six Terminal windows (MacOS, Linux) and arrange so you can view them conveniently.
